@@ -33,11 +33,11 @@ header {
 }
 
 /* Center: Navigation links */
-.nav-links {
+.menu-list {
     margin-left: 20px; /* Adjust margin to position links next to the logo */
 }
 
-.nav-links ul {
+.menu-list ul {
     display: flex;
     gap: 20px; /* Space between links */
     list-style: none;
@@ -45,23 +45,23 @@ header {
     padding: 0;
 }
 
-.nav-links a {
+.menu-list a {
     text-decoration: none;
     color: #c9d1d9; /* Light color for links */
     font-size: 1em;
 }
 
-.nav-links a:hover {
+.menu-list a:hover {
     color: #ffffff;
 }
 
 /* Right side: Social icons */
-.social-icons {
+.icons {
     display: flex;
     gap: 15px;
 }
 
-.social-icons a img {
+.icons a img {
     width: 24px;
     height: 24px;
 }
